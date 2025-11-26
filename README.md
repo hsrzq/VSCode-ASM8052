@@ -7,6 +7,7 @@ Syntax highlighting and IntelliSense for 8051/8052 assembly language in Visual S
 ## Syntax Highlighting
 
 - Comments starting with semicolon (`;`)
+- Double quotation mark (`"`) strings (with escape character recognition)
 
 ## Installation
 

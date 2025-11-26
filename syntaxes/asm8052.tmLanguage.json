@@ -11,6 +11,9 @@
   "patterns": [
     {
       "include": "#comments"
+    },
+    {
+      "include": "#strings"
     }
   ],
   "repository": {
@@ -19,6 +22,21 @@
         {
           "match": ";.*$",
           "name": "comment.line.semicolon.asm8052"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "match": "\\\\.",
+              "name": "constant.character.escape.asm8052"
+            }
+          ],
+          "name": "string.quoted.double.asm8052"
         }
       ]
     }
