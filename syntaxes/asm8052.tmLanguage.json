@@ -13,6 +13,9 @@
       "include": "#comments"
     },
     {
+      "include": "#mnemonics"
+    },
+    {
       "include": "#strings"
     },
     {
@@ -25,6 +28,14 @@
         {
           "match": ";.*$",
           "name": "comment.line.semicolon.asm8052"
+        }
+      ]
+    },
+    "mnemonics": {
+      "patterns": [
+        {
+          "match": "(?i)\\b(ACALL|ADD|ADDC|AJMP|ANL|CJNE|CLR|CPL|DA|DEC|DIV|DJNZ|INC|JB|JBC|JC|JMP|JNB|JNC|JNZ|JZ|LCALL|LJMP|MOV|MOVC|MOVX|MUL|NOP|ORL|POP|PUSH|RET|RETI|RRC|RL|RLC|RR|SETB|SJMP|SUBB|SWAP|XCH|XCHD|XRL)\\b",
+          "name": "keyword.other.mnemonic.asm8052"
         }
       ]
     },
