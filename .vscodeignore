@@ -1,0 +1,17 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Development Files
+.github/**
+.vscode/**
+.git/**
+
+# Build Files
+.gitignore
+.vscodeignore
+
+# Keep Files
+!README.md
+!LICENSE
+!CHANGELOG.md

@@ -1,0 +1,74 @@
+{
+  "name": "asm8052",
+  "icon": "images/icon-extension.png",
+  "displayName": "8052 Assembly",
+  "license": "Apache License 2.0",
+  "description": "Syntax highlighting and IntelliSense for MCS-51/8051/8052 assembly language.",
+  "version": "0.0.1",
+  "publisher": "techqi",
+  "author": {
+    "name": "hsrzq",
+    "url": "https://github.com/hsrzq",
+    "email": "hsrzq@126.com"
+  },
+  "keywords": [
+    "8051",
+    "8052",
+    "8051 assembly",
+    "8052 assembly",
+    "assembly",
+    "asm",
+    "embedded",
+    "mcs-51",
+    "mcs51",
+    "mcu",
+    "microcontroller",
+    "a51",
+    "c51",
+    "h51",
+    "sdcc",
+    "keil"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsrzq/VSCode-ASM8052.git"
+  },
+  "repository-cn": {
+    "type": "git",
+    "url": "https://gitee.com/techqi/VSCode-ASM8052.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "asm8052",
+        "aliases": [
+          "asm8052",
+          "8052asm",
+          "asm8051",
+          "8051asm"
+        ],
+        "extensions": [
+          ".a51",
+          ".asm",
+          ".c51",
+          ".h51",
+          ".s"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "asm8052",
+        "scopeName": "source.asm8052",
+        "path": "./syntaxes/asm8052.tmLanguage.json"
+      }
+    ]
+  }
+}

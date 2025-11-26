@@ -1,0 +1,11 @@
+{
+  "name": "ASM8052",
+  "scopeName": "source.asm8052",
+  "fileTypes": [
+    "a51",
+    "asm",
+    "c51",
+    "h51",
+    "s"
+  ]
+}
