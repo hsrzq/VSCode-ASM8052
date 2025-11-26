@@ -4,7 +4,7 @@
   "displayName": "8052 Assembly",
   "license": "Apache License 2.0",
   "description": "Syntax highlighting and IntelliSense for MCS-51/8051/8052 assembly language.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "techqi",
   "author": {
     "name": "hsrzq",
