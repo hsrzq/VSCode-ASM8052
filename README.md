@@ -14,6 +14,8 @@ Syntax highlighting and IntelliSense for 8051/8052 assembly language in Visual S
     - Decimal excludes numbers ending with `$` (reserved for inside jump labels)
     - A single character enclosed in single quotation marks (`'`) is also treated as a number
 - 8051/8052 assembly language mnemonics
+- Common built-in registers:
+    - Only supports `A`, `ACC`, `AB`, `B`, `C`, `DPH`, `DPL`, `DPTR`, `PSW`, `SP`, `R0`~`R7` and `AR0`~`AR7`
 
 ## Installation
 

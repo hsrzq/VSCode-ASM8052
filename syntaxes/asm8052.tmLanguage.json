@@ -16,6 +16,9 @@
       "include": "#mnemonics"
     },
     {
+      "include": "#registers"
+    },
+    {
       "include": "#strings"
     },
     {
@@ -36,6 +39,14 @@
         {
           "match": "(?i)\\b(ACALL|ADD|ADDC|AJMP|ANL|CJNE|CLR|CPL|DA|DEC|DIV|DJNZ|INC|JB|JBC|JC|JMP|JNB|JNC|JNZ|JZ|LCALL|LJMP|MOV|MOVC|MOVX|MUL|NOP|ORL|POP|PUSH|RET|RETI|RRC|RL|RLC|RR|SETB|SJMP|SUBB|SWAP|XCH|XCHD|XRL)\\b",
           "name": "keyword.other.mnemonic.asm8052"
+        }
+      ]
+    },
+    "registers": {
+      "patterns": [
+        {
+          "match": "(?i)\\b(A|ACC|AB|B|C|DPH|DPL|DPTR|PSW|SP|A?R[0-7])\\b",
+          "name": "support.variable.registers.asm8052"
         }
       ]
     },
