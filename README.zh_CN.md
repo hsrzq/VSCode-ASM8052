@@ -16,6 +16,11 @@
 - 8051/8052 汇编语言助记符
 - 常用基础内置寄存器：
     - 目前只支持`A`，`ACC`，`AB`，`B`，`C`，`DPH`，`DPL`，`DPTR`，`PSW`，`SP`，`R0`~`R7`和`AR0`~`AR7`
+- 常见通用汇编伪指令：
+    - 数据定义：`.org`，`.db`，`.dw`，`.ds`，`.equ`，`.set`，`.end`，`.include`等
+    - 条件编译：`.if`……`.else`……`.endif`等
+    - 宏定义：`macro`……`endm`等
+    - 重复迭代：`rept`……`endr`、`irp`、`irpc`等
 
 ## 安装方法
 

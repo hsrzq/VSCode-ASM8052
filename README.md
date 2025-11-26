@@ -16,6 +16,11 @@ Syntax highlighting and IntelliSense for 8051/8052 assembly language in Visual S
 - 8051/8052 assembly language mnemonics
 - Common built-in registers:
     - Only supports `A`, `ACC`, `AB`, `B`, `C`, `DPH`, `DPL`, `DPTR`, `PSW`, `SP`, `R0`~`R7` and `AR0`~`AR7`
+- Common assembly directives:
+    - Data definition: `.org`, `.db`, `.dw`, `.ds`, `.equ`, `.set`, `.end`, `.include`, etc.
+    - Conditional compilation: `.if`...`.else`...`.endif`, etc.
+    - Macro definition: `macro`...`endm`, etc.
+    - Repetitive iteration: `rept`...`endr`, `irp`, `irpc`, etc.
 
 ## Installation
 

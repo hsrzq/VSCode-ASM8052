@@ -13,6 +13,9 @@
       "include": "#comments"
     },
     {
+      "include": "#directives"
+    },
+    {
       "include": "#mnemonics"
     },
     {
@@ -31,6 +34,33 @@
         {
           "match": ";.*$",
           "name": "comment.line.semicolon.asm8052"
+        }
+      ]
+    },
+    "directives": {
+      "patterns": [
+        {
+          "include": "#directives-comm"
+        }
+      ]
+    },
+    "directives-comm": {
+      "patterns": [
+        {
+          "match": "\\.(?i)\\b(org|db|dw|ds|equ|set|end|include)\\b",
+          "name": "keyword.control.directive.comm.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(if|else|endif)\\b",
+          "name": "keyword.control.directive.comm.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(macro|endm)\\b",
+          "name": "keyword.control.directive.comm.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(rept|endr|irp|irpc)\\b",
+          "name": "keyword.control.directive.comm.asm8052"
         }
       ]
     },
