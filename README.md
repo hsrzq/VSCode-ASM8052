@@ -21,6 +21,10 @@ Syntax highlighting and IntelliSense for 8051/8052 assembly language in Visual S
     - Conditional compilation: `.if`...`.else`...`.endif`, etc.
     - Macro definition: `macro`...`endm`, etc.
     - Repetitive iteration: `rept`...`endr`, `irp`, `irpc`, etc.
+- [SDCC](https://sdcc.sourceforge.net) proprietary assembly directives:
+    - Segments and symbol declaration: `.module`, `.area`, `.globl`, etc.
+    - Flow control extensions: `iff`, `ift`, `iftf`, `ifxx`, etc.
+    - Full directive reference: [asmlnk.txt](https://svn.code.sf.net/p/sdcc/code/trunk/sdcc/sdas/doc/asmlnk.txt)
 
 ## Installation
 

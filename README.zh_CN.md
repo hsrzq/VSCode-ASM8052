@@ -21,6 +21,10 @@
     - 条件编译：`.if`……`.else`……`.endif`等
     - 宏定义：`macro`……`endm`等
     - 重复迭代：`rept`……`endr`、`irp`、`irpc`等
+- [SDCC](https://sdcc.sourceforge.net) 专有汇编伪指令：
+    - 段和符号声明：`.module`、`.area`、`.globl`等
+    - 流程控制扩展：`iff`、`ift`、`iftf`、`ifxx`等
+    - 完整指令参考：[asmlnk.txt](https://svn.code.sf.net/p/sdcc/code/trunk/sdcc/sdas/doc/asmlnk.txt)
 
 ## 安装方法
 

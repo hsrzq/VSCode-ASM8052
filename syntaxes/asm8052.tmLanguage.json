@@ -41,6 +41,9 @@
       "patterns": [
         {
           "include": "#directives-comm"
+        },
+        {
+          "include": "#directives-sdcc"
         }
       ]
     },
@@ -61,6 +64,34 @@
         {
           "match": "\\.(?i)\\b(rept|endr|irp|irpc)\\b",
           "name": "keyword.control.directive.comm.asm8052"
+        }
+      ]
+    },
+    "directives-sdcc": {
+      "patterns": [
+        {
+          "match": "\\.(?i)\\b(area|globl|local|module)\\b",
+          "name": "keyword.control.directive.sdcc.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(title|sbttl|list|nolist|page|radix|optsdcc)\\b",
+          "name": "keyword.control.directive.sdcc.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(byte|fcb|word|fdb|blkb|rmb|rs|blkw|ascii|str|fcc|ascis|strs|asciz|strz)\\b",
+          "name": "keyword.control.directive.sdcc.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(even|gblequ|lclequ)\\b",
+          "name": "keyword.control.directive.equate.sdcc.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(iff|ift|iftf|ifxx|ifdef|ifndef|ifb|ifnb|ifidn|ifdif)\\b",
+          "name": "keyword.control.directive.sdcc.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(define|undefine|mexit|narg|nchr|ntyp|nval|mdelete|mlib|mcall)\\b",
+          "name": "keyword.control.directive.sdcc.asm8052"
         }
       ]
     },
