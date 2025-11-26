@@ -8,6 +8,11 @@ Syntax highlighting and IntelliSense for 8051/8052 assembly language in Visual S
 
 - Comments starting with semicolon (`;`)
 - Double quotation mark (`"`) strings (with escape character recognition)
+- Numbers in various bases
+    - Hexadecimal (case-insensitive)
+    - Binary numbers are case-insensitive and support segmentation with underscores (`_`), i.e., `0b1010_0101`
+    - Decimal excludes numbers ending with `$` (reserved for inside jump labels)
+    - A single character enclosed in single quotation marks (`'`) is also treated as a number
 
 ## Installation
 

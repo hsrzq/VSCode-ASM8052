@@ -14,6 +14,9 @@
     },
     {
       "include": "#strings"
+    },
+    {
+      "include": "#numbers"
     }
   ],
   "repository": {
@@ -37,6 +40,26 @@
             }
           ],
           "name": "string.quoted.double.asm8052"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "match": "\\b0[xX][0-9a-fA-F]+\\b",
+          "name": "constant.numeric.hex.asm8052"
+        },
+        {
+          "match": "\\b0[bB][01_]+\\b",
+          "name": "constant.numeric.bin.asm8052"
+        },
+        {
+          "match": "\\b\\d+\\b(?!\\$)",
+          "name": "constant.numeric.dec.asm8052"
+        },
+        {
+          "match": "'(?:\\\\.|[^'\\\\])'",
+          "name": "constant.numeric.char.asm8052"
         }
       ]
     }
