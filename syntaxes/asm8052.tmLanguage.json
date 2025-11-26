@@ -44,6 +44,9 @@
         },
         {
           "include": "#directives-sdcc"
+        },
+        {
+          "include": "#directives-keil"
         }
       ]
     },
@@ -92,6 +95,42 @@
         {
           "match": "\\.(?i)\\b(define|undefine|mexit|narg|nchr|ntyp|nval|mdelete|mlib|mcall)\\b",
           "name": "keyword.control.directive.sdcc.asm8052"
+        }
+      ]
+    },
+    "directives-keil": {
+      "patterns": [
+        {
+          "match": "\\.(?i)\\b(rseg|cseg|dseg|iseg|bseg|xseg|bit|name|stack)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(proc|endp|using|align)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
+        },
+        {
+          "match": "\\.(?i)\\b(elseif|extrn)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
+        },
+        {
+          "match": "\\$(?i)\\b(nomod51|mod51|include)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
+        },
+        {
+          "match": "\\$(?i)\\b(title|pagewidth|pagelength|list|nolist|page|subtitle|debug|nodebug|error|warning|nowarning|noerror|symbols|nosymbols|eject|print|noprint)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
+        },
+        {
+          "match": "\\$(?i)\\b(cond|nocond)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
+        },
+        {
+          "match": "\\$(?i)\\b(gen|nogen|set|save|restore|overlayable|nooverlay|registerbank|reguse|order|disorder)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
+        },
+        {
+          "match": "\\$(?i)\\b(incbin|macroall|object|noobject)\\b",
+          "name": "keyword.control.directive.keil.asm8052"
         }
       ]
     },

@@ -25,6 +25,7 @@
     - 段和符号声明：`.module`、`.area`、`.globl`等
     - 流程控制扩展：`iff`、`ift`、`iftf`、`ifxx`等
     - 完整指令参考：[asmlnk.txt](https://svn.code.sf.net/p/sdcc/code/trunk/sdcc/sdas/doc/asmlnk.txt)
+- [Keil](https://www.keil.com) 专有汇编伪指令
 
 ## 安装方法
 
