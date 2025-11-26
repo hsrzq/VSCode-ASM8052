@@ -4,6 +4,10 @@
 
 Syntax highlighting and IntelliSense for 8051/8052 assembly language in Visual Studio Code.
 
+## Syntax Highlighting
+
+- Comments starting with semicolon (`;`)
+
 ## Installation
 
 ### From Marketplace

@@ -7,5 +7,20 @@
     "c51",
     "h51",
     "s"
-  ]
+  ],
+  "patterns": [
+    {
+      "include": "#comments"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "match": ";.*$",
+          "name": "comment.line.semicolon.asm8052"
+        }
+      ]
+    }
+  }
 }
