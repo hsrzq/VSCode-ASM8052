@@ -1,0 +1,7 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# VSCode Files
+/node_modules
+*.vsix
